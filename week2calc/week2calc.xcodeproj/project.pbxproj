@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62ADD49016422E4300EB7084 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ADD48F16422E4200EB7084 /* UIKit.framework */; };
+		62ADD49216422E4300EB7084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ADD49116422E4300EB7084 /* Foundation.framework */; };
+		62ADD49416422E4300EB7084 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ADD49316422E4300EB7084 /* CoreGraphics.framework */; };
+		62ADD49A16422E4300EB7084 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62ADD49816422E4300EB7084 /* InfoPlist.strings */; };
+		62ADD49C16422E4300EB7084 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADD49B16422E4300EB7084 /* main.m */; };
+		62ADD4A016422E4300EB7084 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADD49F16422E4300EB7084 /* AppDelegate.m */; };
+		62ADD4A316422E4300EB7084 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ADD4A216422E4300EB7084 /* ViewController.m */; };
+		62ADD4A616422E4300EB7084 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62ADD4A416422E4300EB7084 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62ADD48B16422E4200EB7084 /* week2calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week2calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62ADD48F16422E4200EB7084 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62ADD49116422E4300EB7084 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62ADD49316422E4300EB7084 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62ADD49716422E4300EB7084 /* week2calc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week2calc-Info.plist"; sourceTree = "<group>"; };
+		62ADD49916422E4300EB7084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62ADD49B16422E4300EB7084 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62ADD49D16422E4300EB7084 /* week2calc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "week2calc-Prefix.pch"; sourceTree = "<group>"; };
+		62ADD49E16422E4300EB7084 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62ADD49F16422E4300EB7084 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62ADD4A116422E4300EB7084 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62ADD4A216422E4300EB7084 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62ADD4A516422E4300EB7084 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62ADD48816422E4200EB7084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ADD49016422E4300EB7084 /* UIKit.framework in Frameworks */,
+				62ADD49216422E4300EB7084 /* Foundation.framework in Frameworks */,
+				62ADD49416422E4300EB7084 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62ADD48016422E4200EB7084 = {
+			isa = PBXGroup;
+			children = (
+				62ADD49516422E4300EB7084 /* week2calc */,
+				62ADD48E16422E4200EB7084 /* Frameworks */,
+				62ADD48C16422E4200EB7084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62ADD48C16422E4200EB7084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62ADD48B16422E4200EB7084 /* week2calc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62ADD48E16422E4200EB7084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62ADD48F16422E4200EB7084 /* UIKit.framework */,
+				62ADD49116422E4300EB7084 /* Foundation.framework */,
+				62ADD49316422E4300EB7084 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62ADD49516422E4300EB7084 /* week2calc */ = {
+			isa = PBXGroup;
+			children = (
+				62ADD49E16422E4300EB7084 /* AppDelegate.h */,
+				62ADD49F16422E4300EB7084 /* AppDelegate.m */,
+				62ADD4A116422E4300EB7084 /* ViewController.h */,
+				62ADD4A216422E4300EB7084 /* ViewController.m */,
+				62ADD4A416422E4300EB7084 /* ViewController.xib */,
+				62ADD49616422E4300EB7084 /* Supporting Files */,
+			);
+			path = week2calc;
+			sourceTree = "<group>";
+		};
+		62ADD49616422E4300EB7084 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62ADD49716422E4300EB7084 /* week2calc-Info.plist */,
+				62ADD49816422E4300EB7084 /* InfoPlist.strings */,
+				62ADD49B16422E4300EB7084 /* main.m */,
+				62ADD49D16422E4300EB7084 /* week2calc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62ADD48A16422E4200EB7084 /* week2calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62ADD4A916422E4300EB7084 /* Build configuration list for PBXNativeTarget "week2calc" */;
+			buildPhases = (
+				62ADD48716422E4200EB7084 /* Sources */,
+				62ADD48816422E4200EB7084 /* Frameworks */,
+				62ADD48916422E4200EB7084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = week2calc;
+			productName = week2calc;
+			productReference = 62ADD48B16422E4200EB7084 /* week2calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62ADD48216422E4200EB7084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mark Thompson";
+			};
+			buildConfigurationList = 62ADD48516422E4200EB7084 /* Build configuration list for PBXProject "week2calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62ADD48016422E4200EB7084;
+			productRefGroup = 62ADD48C16422E4200EB7084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62ADD48A16422E4200EB7084 /* week2calc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62ADD48916422E4200EB7084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ADD49A16422E4300EB7084 /* InfoPlist.strings in Resources */,
+				62ADD4A616422E4300EB7084 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62ADD48716422E4200EB7084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ADD49C16422E4300EB7084 /* main.m in Sources */,
+				62ADD4A016422E4300EB7084 /* AppDelegate.m in Sources */,
+				62ADD4A316422E4300EB7084 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62ADD49816422E4300EB7084 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ADD49916422E4300EB7084 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62ADD4A416422E4300EB7084 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ADD4A516422E4300EB7084 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62ADD4A716422E4300EB7084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62ADD4A816422E4300EB7084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62ADD4AA16422E4300EB7084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "week2calc/week2calc-Prefix.pch";
+				INFOPLIST_FILE = "week2calc/week2calc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62ADD4AB16422E4300EB7084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "week2calc/week2calc-Prefix.pch";
+				INFOPLIST_FILE = "week2calc/week2calc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62ADD48516422E4200EB7084 /* Build configuration list for PBXProject "week2calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ADD4A716422E4300EB7084 /* Debug */,
+				62ADD4A816422E4300EB7084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62ADD4A916422E4300EB7084 /* Build configuration list for PBXNativeTarget "week2calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ADD4AA16422E4300EB7084 /* Debug */,
+				62ADD4AB16422E4300EB7084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62ADD48216422E4200EB7084 /* Project object */;
+}
