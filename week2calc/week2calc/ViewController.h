@@ -12,9 +12,10 @@
 @interface ViewController : UIViewController {
 
     float result;
-    IBOutlet UILabel * calculatorScreen;
+    IBOutlet UITextField * calculatorScreen;
     int currentOperation;
     float currentNumber;
+    IBOutlet UISwitch *onOffSwitch;
     
 }
 -(IBAction)buttonDigitPressed:(id)sender;
