@@ -21,6 +21,5 @@
 -(IBAction)buttonOperationPressed:(id)sender;
 -(IBAction)cancelOperation;
 -(IBAction)changeBGseg:(id)sender;
-
-
+-(IBAction)secondViewClick:(id)sender;
 @end

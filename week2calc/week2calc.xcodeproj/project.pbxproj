@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62383CA1164348640003A447 /* infoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62383CA0164348640003A447 /* infoView.xib */; };
+		62383CA5164349CE0003A447 /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62383CA4164349CE0003A447 /* infoViewController.m */; };
 		62ADD49016422E4300EB7084 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ADD48F16422E4200EB7084 /* UIKit.framework */; };
 		62ADD49216422E4300EB7084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ADD49116422E4300EB7084 /* Foundation.framework */; };
 		62ADD49416422E4300EB7084 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ADD49316422E4300EB7084 /* CoreGraphics.framework */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62383CA0164348640003A447 /* infoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = infoView.xib; sourceTree = "<group>"; };
+		62383CA3164349CE0003A447 /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		62383CA4164349CE0003A447 /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
 		62ADD48B16422E4200EB7084 /* week2calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week2calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62ADD48F16422E4200EB7084 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62ADD49116422E4300EB7084 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +88,9 @@
 				62ADD4A216422E4300EB7084 /* ViewController.m */,
 				62ADD4A416422E4300EB7084 /* ViewController.xib */,
 				62ADD49616422E4300EB7084 /* Supporting Files */,
+				62383CA0164348640003A447 /* infoView.xib */,
+				62383CA3164349CE0003A447 /* infoViewController.h */,
+				62383CA4164349CE0003A447 /* infoViewController.m */,
 			);
 			path = week2calc;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			files = (
 				62ADD49A16422E4300EB7084 /* InfoPlist.strings in Resources */,
 				62ADD4A616422E4300EB7084 /* ViewController.xib in Resources */,
+				62383CA1164348640003A447 /* infoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +173,7 @@
 				62ADD49C16422E4300EB7084 /* main.m in Sources */,
 				62ADD4A016422E4300EB7084 /* AppDelegate.m in Sources */,
 				62ADD4A316422E4300EB7084 /* ViewController.m in Sources */,
+				62383CA5164349CE0003A447 /* infoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +287,7 @@
 				62ADD4AB16422E4300EB7084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

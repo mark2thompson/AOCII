@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "infoViewController.h"
 
 @interface ViewController ()
 
@@ -39,6 +40,16 @@
     calculatorScreen.text = @"0";
     currentOperation = 0;
 }
+// this opens the second view
+-(IBAction)secondViewClick:(id)sender{
+    infoViewController *viewController = [[infoViewController alloc]
+                                           initWithNibName:@"infoView" bundle:nil];
+    if (viewController !=nil){
+        [self presentModalViewController:viewController animated:TRUE];
+    }
+    
+}
+
 // this is the BG segment switch action and function
 -(IBAction)changeBGseg:(id)sender{
     UISegmentedControl *BGController = (UISegmentedControl *)sender;
