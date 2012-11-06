@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D2716D16494EC400E123A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2716C16494EC400E123A8 /* UIKit.framework */; };
+		62D2716F16494EC400E123A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2716E16494EC400E123A8 /* Foundation.framework */; };
+		62D2717116494EC400E123A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2717016494EC400E123A8 /* CoreGraphics.framework */; };
+		62D2717716494EC400E123A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62D2717516494EC400E123A8 /* InfoPlist.strings */; };
+		62D2717916494EC400E123A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2717816494EC400E123A8 /* main.m */; };
+		62D2717D16494EC400E123A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2717C16494EC400E123A8 /* AppDelegate.m */; };
+		62D2718016494EC400E123A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2717F16494EC400E123A8 /* ViewController.m */; };
+		62D2718316494EC400E123A8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D2718116494EC400E123A8 /* ViewController.xib */; };
+		62D271911649511E00E123A8 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D2718F1649511E00E123A8 /* AddEventViewController.m */; };
+		62D271921649511E00E123A8 /* AddEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D271901649511E00E123A8 /* AddEventViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62D2716816494EC400E123A8 /* week3planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week3planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D2716C16494EC400E123A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62D2716E16494EC400E123A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62D2717016494EC400E123A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62D2717416494EC400E123A8 /* week3planner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week3planner-Info.plist"; sourceTree = "<group>"; };
+		62D2717616494EC400E123A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62D2717816494EC400E123A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62D2717A16494EC400E123A8 /* week3planner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "week3planner-Prefix.pch"; sourceTree = "<group>"; };
+		62D2717B16494EC400E123A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62D2717C16494EC400E123A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62D2717E16494EC400E123A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62D2717F16494EC400E123A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62D2718216494EC400E123A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		62D2718E1649511E00E123A8 /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
+		62D2718F1649511E00E123A8 /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
+		62D271901649511E00E123A8 /* AddEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEventViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D2716516494EC400E123A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D2716D16494EC400E123A8 /* UIKit.framework in Frameworks */,
+				62D2716F16494EC400E123A8 /* Foundation.framework in Frameworks */,
+				62D2717116494EC400E123A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62D2715D16494EC400E123A8 = {
+			isa = PBXGroup;
+			children = (
+				62D2717216494EC400E123A8 /* week3planner */,
+				62D2716B16494EC400E123A8 /* Frameworks */,
+				62D2716916494EC400E123A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62D2716916494EC400E123A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D2716816494EC400E123A8 /* week3planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D2716B16494EC400E123A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D2716C16494EC400E123A8 /* UIKit.framework */,
+				62D2716E16494EC400E123A8 /* Foundation.framework */,
+				62D2717016494EC400E123A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62D2717216494EC400E123A8 /* week3planner */ = {
+			isa = PBXGroup;
+			children = (
+				62D2717B16494EC400E123A8 /* AppDelegate.h */,
+				62D2717C16494EC400E123A8 /* AppDelegate.m */,
+				62D2717E16494EC400E123A8 /* ViewController.h */,
+				62D2717F16494EC400E123A8 /* ViewController.m */,
+				62D2718116494EC400E123A8 /* ViewController.xib */,
+				62D2717316494EC400E123A8 /* Supporting Files */,
+				62D2718E1649511E00E123A8 /* AddEventViewController.h */,
+				62D2718F1649511E00E123A8 /* AddEventViewController.m */,
+				62D271901649511E00E123A8 /* AddEventViewController.xib */,
+			);
+			path = week3planner;
+			sourceTree = "<group>";
+		};
+		62D2717316494EC400E123A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62D2717416494EC400E123A8 /* week3planner-Info.plist */,
+				62D2717516494EC400E123A8 /* InfoPlist.strings */,
+				62D2717816494EC400E123A8 /* main.m */,
+				62D2717A16494EC400E123A8 /* week3planner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D2716716494EC400E123A8 /* week3planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D2718616494EC400E123A8 /* Build configuration list for PBXNativeTarget "week3planner" */;
+			buildPhases = (
+				62D2716416494EC400E123A8 /* Sources */,
+				62D2716516494EC400E123A8 /* Frameworks */,
+				62D2716616494EC400E123A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = week3planner;
+			productName = week3planner;
+			productReference = 62D2716816494EC400E123A8 /* week3planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D2715F16494EC400E123A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mark Thompson";
+			};
+			buildConfigurationList = 62D2716216494EC400E123A8 /* Build configuration list for PBXProject "week3planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62D2715D16494EC400E123A8;
+			productRefGroup = 62D2716916494EC400E123A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D2716716494EC400E123A8 /* week3planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D2716616494EC400E123A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D2717716494EC400E123A8 /* InfoPlist.strings in Resources */,
+				62D2718316494EC400E123A8 /* ViewController.xib in Resources */,
+				62D271921649511E00E123A8 /* AddEventViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D2716416494EC400E123A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D2717916494EC400E123A8 /* main.m in Sources */,
+				62D2717D16494EC400E123A8 /* AppDelegate.m in Sources */,
+				62D2718016494EC400E123A8 /* ViewController.m in Sources */,
+				62D271911649511E00E123A8 /* AddEventViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62D2717516494EC400E123A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D2717616494EC400E123A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62D2718116494EC400E123A8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D2718216494EC400E123A8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D2718416494EC400E123A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62D2718516494EC400E123A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D2718716494EC400E123A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "week3planner/week3planner-Prefix.pch";
+				INFOPLIST_FILE = "week3planner/week3planner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62D2718816494EC400E123A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "week3planner/week3planner-Prefix.pch";
+				INFOPLIST_FILE = "week3planner/week3planner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D2716216494EC400E123A8 /* Build configuration list for PBXProject "week3planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D2718416494EC400E123A8 /* Debug */,
+				62D2718516494EC400E123A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D2718616494EC400E123A8 /* Build configuration list for PBXNativeTarget "week3planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D2718716494EC400E123A8 /* Debug */,
+				62D2718816494EC400E123A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62D2715F16494EC400E123A8 /* Project object */;
+}
