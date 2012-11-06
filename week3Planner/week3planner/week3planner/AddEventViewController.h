@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface AddEventViewController : UIViewController
+{
+    IBOutlet UITextField *textField;
 
+}
+-(IBAction)onChange:(id)sender;
+-(IBAction)onSave:(id)sender;
+-(IBAction)kbCLose:(id)sender;
 @end
