@@ -7,12 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "AddEventViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+ //setting this up to open the second view
+-(IBAction)onClick:(id)sender{
+    AddEventViewController *addEvent = [[AddEventViewController alloc] initWithNibName:@"AddEventViewController" bundle:nil];
+    if (addEvent != nil) {
+        [self presentModalViewController:addEvent animated:true];
+    }
+  
+}
 
 - (void)viewDidLoad
 {
