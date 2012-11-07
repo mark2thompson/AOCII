@@ -15,7 +15,10 @@
     IBOutlet UITextField *textField;
 
 }
-
+@property (retain, nonatomic) IBOutlet UIButton *saveButton;
+@property (retain, nonatomic) IBOutlet UIButton *closeKeyBut;
+@property (retain, nonatomic) IBOutlet UIDatePicker *theDatePicker;
+@property (retain, nonatomic) IBOutlet UITextField *theTextField;
 @property (strong) id <theDelegate> delegate;
 -(IBAction)onChange:(id)sender;
 -(IBAction)onSave:(id)sender;

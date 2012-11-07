@@ -11,7 +11,10 @@
 
 
 @implementation AddEventViewController
-
+@synthesize saveButton;
+@synthesize closeKeyBut;
+@synthesize theTextField;
+@synthesize theDatePicker;
 @synthesize delegate;
 
 
@@ -70,19 +73,17 @@
 }
 //closes and saves the second view
 -(IBAction)onSave:(id)sender{
-    UIDatePicker *picker = (UIDatePicker*)sender;
-    NSDate *Date = [NSDate date];
+    theDatePicker.minimumDate = [NSDate date];
+    NSDate *Date = theDatePicker.date;
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
     [dateFormatter setDateFormat:@"MM-dd-yyyy HH:mm:SS a"];
     // forces the user to choose a date and time in the futuer
-    picker.minimumDate=Date;
+    //picker.minimumDate=Date;
     
     NSString *textFieldComplete = [[NSString alloc] initWithString: textField.text];
     NSString *dateStringComplete = [dateFormatter stringFromDate:Date];
-    NSString *newString = [[NSString alloc] initWithFormat:@"%@%@\n", textFieldComplete, dateStringComplete];
+    NSString *newString = [[NSString alloc] initWithFormat:@"%@: %@", textFieldComplete, dateStringComplete];
     [delegate addSaved:newString];
-    
-
     [self dismissModalViewControllerAnimated:TRUE];
 }
 
