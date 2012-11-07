@@ -54,20 +54,7 @@
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-// date function
-//-(IBAction)onChange:(id)sender{
-//    UIDatePicker *picker = (UIDatePicker*)sender;
-//    if (picker != nil){
-//        NSDate *Date = [NSDate date];
-//        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
-//        [dateFormatter setDateFormat:@"MM-dd-yyyy HH:mm:SS a"];
-//        // forces the user to choose a date and time in the futuer
-//        picker.minimumDate=Date;
-        
-//        NSLog(@"date=%@", [Date description]);
-  //  }
-//}
-// closes the keyboard 
+
 -(IBAction)kbCLose:(id)sender{
     [textField resignFirstResponder];
 }

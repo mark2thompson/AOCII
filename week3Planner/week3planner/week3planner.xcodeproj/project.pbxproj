@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6290EA7C164ABFB20026A461 /* plannerBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 6290EA7B164ABFB20026A461 /* plannerBG.png */; };
 		62D2716D16494EC400E123A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2716C16494EC400E123A8 /* UIKit.framework */; };
 		62D2716F16494EC400E123A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2716E16494EC400E123A8 /* Foundation.framework */; };
 		62D2717116494EC400E123A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2717016494EC400E123A8 /* CoreGraphics.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6290EA7B164ABFB20026A461 /* plannerBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plannerBG.png; path = ../../../../../Desktop/plannerBG.png; sourceTree = "<group>"; };
 		62D2716816494EC400E123A8 /* week3planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week3planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D2716C16494EC400E123A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62D2716E16494EC400E123A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +89,7 @@
 				62D2717E16494EC400E123A8 /* ViewController.h */,
 				62D2717F16494EC400E123A8 /* ViewController.m */,
 				62D2718116494EC400E123A8 /* ViewController.xib */,
+				6290EA7B164ABFB20026A461 /* plannerBG.png */,
 				62D2717316494EC400E123A8 /* Supporting Files */,
 				62D2718E1649511E00E123A8 /* AddEventViewController.h */,
 				62D2718F1649511E00E123A8 /* AddEventViewController.m */,
@@ -160,6 +163,7 @@
 				62D2717716494EC400E123A8 /* InfoPlist.strings in Resources */,
 				62D2718316494EC400E123A8 /* ViewController.xib in Resources */,
 				62D271921649511E00E123A8 /* AddEventViewController.xib in Resources */,
+				6290EA7C164ABFB20026A461 /* plannerBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				62D2718816494EC400E123A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
