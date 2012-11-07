@@ -8,9 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@protocol theDelegate <NSObject>
+
+-(void)addSaved:(NSString*)theString;
+
+@end
+
+@interface ViewController : UIViewController <theDelegate>
 {
     IBOutlet UITextView *textView;
+    NSMutableString *textFromAdd;
 }
 
 -(IBAction)onClick:(id)sender;

@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+#import "AddEventViewController.h"
 
 @interface AddEventViewController : UIViewController
 {
     IBOutlet UITextField *textField;
 
 }
+
+@property (strong) id <theDelegate> delegate;
 -(IBAction)onChange:(id)sender;
 -(IBAction)onSave:(id)sender;
 -(IBAction)kbCLose:(id)sender;

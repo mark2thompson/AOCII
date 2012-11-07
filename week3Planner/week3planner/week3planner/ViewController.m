@@ -9,9 +9,6 @@
 #import "ViewController.h"
 #import "AddEventViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
@@ -19,10 +16,20 @@
 -(IBAction)onClick:(id)sender{
     AddEventViewController *addEvent = [[AddEventViewController alloc] initWithNibName:@"AddEventViewController" bundle:nil];
     if (addEvent != nil) {
+        addEvent.delegate = self;
         [self presentModalViewController:addEvent animated:true];
     }
     [textView resignFirstResponder];
   
+}
+// adds the new string from the addeventviewcontroller
+-(void)addSaved:(NSString*)theString{
+    if([textView.text isEqualToString:@"All events go here!"]){
+        textView.text = @"";
+        textFromAdd = [NSMutableString stringWithString:textView.text];
+        [textFromAdd appendString:theString];
+        textView.text = textFromAdd;
+    }
 }
 
 - (void)viewDidLoad

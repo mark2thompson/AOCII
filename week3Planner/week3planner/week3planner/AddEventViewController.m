@@ -9,12 +9,10 @@
 #import "AddEventViewController.h"
 #import "ViewController.h"
 
-@interface AddEventViewController ()
-
-@end
 
 @implementation AddEventViewController
 
+@synthesize delegate;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -54,21 +52,37 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 // date function
--(IBAction)onChange:(id)sender{
-    UIDatePicker *picker = (UIDatePicker*)sender;
-    if (picker != nil){
-        NSDate *Date = [NSDate date];
-        // forces the user to choose a date and time in the futuer 
-        picker.minimumDate=Date;
-        NSLog(@"date=%@", [Date description]);
-    }
-}
+//-(IBAction)onChange:(id)sender{
+//    UIDatePicker *picker = (UIDatePicker*)sender;
+//    if (picker != nil){
+//        NSDate *Date = [NSDate date];
+//        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+//        [dateFormatter setDateFormat:@"MM-dd-yyyy HH:mm:SS a"];
+//        // forces the user to choose a date and time in the futuer
+//        picker.minimumDate=Date;
+        
+//        NSLog(@"date=%@", [Date description]);
+  //  }
+//}
 // closes the keyboard 
 -(IBAction)kbCLose:(id)sender{
     [textField resignFirstResponder];
 }
 //closes and saves the second view
 -(IBAction)onSave:(id)sender{
+    UIDatePicker *picker = (UIDatePicker*)sender;
+    NSDate *Date = [NSDate date];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+    [dateFormatter setDateFormat:@"MM-dd-yyyy HH:mm:SS a"];
+    // forces the user to choose a date and time in the futuer
+    picker.minimumDate=Date;
+    
+    NSString *textFieldComplete = [[NSString alloc] initWithString: textField.text];
+    NSString *dateStringComplete = [dateFormatter stringFromDate:Date];
+    NSString *newString = [[NSString alloc] initWithFormat:@"%@%@\n", textFieldComplete, dateStringComplete];
+    [delegate addSaved:newString];
+    
+
     [self dismissModalViewControllerAnimated:TRUE];
 }
 
