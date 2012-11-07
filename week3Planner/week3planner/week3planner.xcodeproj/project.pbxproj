@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6290EA7B164ABFB20026A461 /* plannerBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plannerBG.png; path = ../../../../../Desktop/plannerBG.png; sourceTree = "<group>"; };
+		6290EA7B164ABFB20026A461 /* plannerBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plannerBG.png; sourceTree = "<group>"; };
 		62D2716816494EC400E123A8 /* week3planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week3planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D2716C16494EC400E123A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62D2716E16494EC400E123A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
