@@ -30,6 +30,12 @@
         [textFromAdd appendString:theString];
         textView.text = textFromAdd;
     }
+    else {
+        textFromAdd = [NSMutableString stringWithString:textView.text];
+        [textFromAdd appendString:theString];
+        textView.text = textFromAdd;
+        
+    }
 }
 
 - (void)viewDidLoad

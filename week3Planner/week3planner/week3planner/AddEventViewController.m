@@ -73,16 +73,18 @@
 }
 //closes and saves the second view
 -(IBAction)onSave:(id)sender{
+    // this allows you to choose a date in the past for some reason but will only output the current date?
     theDatePicker.minimumDate = [NSDate date];
     NSDate *Date = theDatePicker.date;
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
-    [dateFormatter setDateFormat:@"MM-dd-yyyy HH:mm:SS a"];
+    [dateFormatter setDateFormat:@"MM-dd-yyyy HH:mm a"];
     // forces the user to choose a date and time in the futuer
     //picker.minimumDate=Date;
-    
+    // just added the new event string... didnt see it until now in the project description
+    NSString *newEvent = [[NSString alloc] initWithString:@"New Event: "];
     NSString *textFieldComplete = [[NSString alloc] initWithString: textField.text];
     NSString *dateStringComplete = [dateFormatter stringFromDate:Date];
-    NSString *newString = [[NSString alloc] initWithFormat:@"%@: %@", textFieldComplete, dateStringComplete];
+    NSString *newString = [[NSString alloc] initWithFormat:@"%@%@\n%@\n\n", newEvent, textFieldComplete, dateStringComplete];
     [delegate addSaved:newString];
     [self dismissModalViewControllerAnimated:TRUE];
 }
