@@ -13,8 +13,12 @@
 @interface AddEventViewController : UIViewController
 {
     IBOutlet UITextField *textField;
+    IBOutlet UILabel *saveSwipe;
+    UISwipeGestureRecognizer *leftSwipe;
+    UISwipeGestureRecognizer *rightSwipe;
 
 }
+
 @property (retain, nonatomic) IBOutlet UIButton *saveButton;
 @property (retain, nonatomic) IBOutlet UIButton *closeKeyBut;
 @property (retain, nonatomic) IBOutlet UIDatePicker *theDatePicker;
@@ -23,4 +27,6 @@
 -(IBAction)onChange:(id)sender;
 -(IBAction)onSave:(id)sender;
 -(IBAction)kbCLose:(id)sender;
+-(void)onSaveSwipe:(UISwipeGestureRecognizer*)recognizer;
+
 @end
