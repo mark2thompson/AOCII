@@ -12,16 +12,6 @@
 
 @implementation ViewController
 
- //setting this up to open the second view
--(IBAction)onClick:(id)sender{
-    AddEventViewController *addEvent = [[AddEventViewController alloc] initWithNibName:@"AddEventViewController" bundle:nil];
-    if (addEvent != nil) {
-        addEvent.delegate = self;
-        [self presentModalViewController:addEvent animated:true];
-    }
-    [textView resignFirstResponder];
-  
-}
 // adds the new string from the addeventviewcontroller
 -(void)addSaved:(NSString*)theString{
     if([textView.text isEqualToString:@"All events go here!"]){
@@ -38,8 +28,28 @@
     }
 }
 
+// this is the onSwipe for the label that opens the second view 
+-(void)onSwipe:(UISwipeGestureRecognizer*)recognizer
+{
+    if (recognizer.direction == UISwipeGestureRecognizerDirectionRight)
+    {
+        AddEventViewController *addEvent = [[AddEventViewController alloc] initWithNibName:@"AddEventViewController" bundle:nil];
+        if (addEvent != nil) {
+            addEvent.delegate = self;
+            [addEvent setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+            [self presentModalViewController:addEvent animated:YES];
+        }
+        [textView resignFirstResponder];
+    }
+
+}
+    
 - (void)viewDidLoad
 {
+    // this determines that the user has swiped right and adds the right swipe gesture to the label
+    rightSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(onSwipe:)];
+    rightSwipe.direction = UISwipeGestureRecognizerDirectionRight;
+    [addSwipe addGestureRecognizer:rightSwipe];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

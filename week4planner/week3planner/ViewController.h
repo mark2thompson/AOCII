@@ -12,6 +12,7 @@
 @protocol theDelegate <NSObject>
 
 -(void)addSaved:(NSString*)theString;
+-(void)onAddSwipe:(UISwipeGestureRecognizer*)recognizer;
 
 @end
 
@@ -19,6 +20,9 @@
 {
     IBOutlet UITextView *textView;
     NSMutableString *textFromAdd;
+    IBOutlet UILabel *addSwipe;
+    UISwipeGestureRecognizer *leftSwipe;
+    UISwipeGestureRecognizer *rightSwipe;
 }
 
 -(IBAction)onClick:(id)sender;
