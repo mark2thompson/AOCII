@@ -64,7 +64,7 @@
     theDatePicker.minimumDate = [NSDate date];
     NSDate *Date = theDatePicker.date;
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
-    [dateFormatter setDateFormat:@"MM-dd-yyyy hh:mm a"];
+    [dateFormatter setDateFormat:@"MM/dd/yyyy hh:mm a"];
     // forces the user to choose a date and time in the futuer
     //picker.minimumDate=Date;
     // just added the new event string... didnt see it until now in the project description
