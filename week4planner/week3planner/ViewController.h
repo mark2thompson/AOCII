@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  week3planner
+//  week4planner
 //
 //  Created by Mark Thompson on 11/6/12.
 //  Copyright (c) 2012 Mark Thompson. All rights reserved.
@@ -14,6 +14,7 @@
 -(void)addSaved:(NSString*)theString;
 -(void)onAddSwipe:(UISwipeGestureRecognizer*)recognizer;
 
+
 @end
 
 @interface ViewController : UIViewController <theDelegate>
@@ -25,6 +26,6 @@
     UISwipeGestureRecognizer *rightSwipe;
 }
 
--(IBAction)onClick:(id)sender;
+-(IBAction)onSaveClick:(id)sender;
 
 @end
